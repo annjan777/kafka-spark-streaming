@@ -60,8 +60,10 @@ kafka-spark-streaming/
 │── images/
 │   ├── architecture.png
 │   ├── spark_ui_jobs.png
-│   ├── kafka_topic.png
-│   └── streaming_output.png
+│   ├── kafka_topic_created.png
+│   ├── spark_streaming_batches.png
+│   ├── producer_events.png
+│   └── kafka_running.png
 ```
 
 ---
@@ -114,6 +116,25 @@ Streaming batches update continuously in real-time.
 - ✔ Continuous streaming batches processed  
 - ✔ Spark UI showing active jobs, stages, and tasks  
 - ✔ Aggregated results updating in real-time  
+
+---
+
+## 📸 Live Execution Screenshots
+
+### 🔹 Kafka Topic Created
+![Kafka Topic](images/kafka_topic_created.png)
+
+### 🔹 Kafka Running (Docker)
+![Kafka Running](images/kafka_running.png)
+
+### 🔹 Producer Sending Events
+![Producer Events](images/producer_events.png)
+
+### 🔹 Spark Streaming Batches
+![Streaming Batches](images/spark_streaming_batches.png)
+
+### 🔹 Spark UI - Jobs
+![Spark UI Jobs](images/spark_ui_jobs.png)
 
 ---
 
